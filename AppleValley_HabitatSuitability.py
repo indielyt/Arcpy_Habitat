@@ -10,10 +10,10 @@ from arcpy.sa import *
 import numpy
 
 # define parameters for habitat suitability, value is a SQL query used in extractions
-rh_d = "Value <= 1"
-rh_v = "Value <= 0.82"
-dph_d = "Value >= 2"
-dph_v = "Value <= 0.82"
+rh_d = "Value <= 1"      # rearing habitat depth
+rh_v = "Value <= 0.82"   # rearing habitat velocity
+dph_d = "Value >= 2"     # pool habitat depth
+dph_v = "Value <= 0.82"  # pool habitat velocity 
 
 # Define existing or proposed (e, p) model run and event (100, 50, 25, 10, bkf, lf). i.e. p100  Do not go over 13 characters total
 condition = "pbkf"
