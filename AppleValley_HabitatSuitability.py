@@ -1,5 +1,3 @@
-# IN progress
-
 # Script for extracting suitable habitat for fish species in Apple Valley Project (N. St. Vrain) outside of Lyons, CO
 # Existing and proposed rasters should be in separate folders and run separately.  Distinct event flows should be 
 # separate folders and run separately
